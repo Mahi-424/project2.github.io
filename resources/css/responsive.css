@@ -1,0 +1,132 @@
+@media only screen and (max-width: 480px){
+ /*=========================
+Logo,main navbar,stiky menu
+===========================*/
+    .logo{
+    height: 30px;
+    margin-left: 40px;
+    }
+    .sticky .logo{
+        height: 22px;
+        margin-left: 40px;
+    }
+    .sticky{
+        padding: 8px 7px;
+    }
+    .main-nav{
+        display: none;
+    }
+  
+    header{
+        height: 75vh;
+    }
+    .hero-text-box{
+        margin-top: -5%;
+        width: 41rem;
+    }
+    .hero-text-box h1{
+     line-height: 35px;
+    width: 360px;
+    margin: 0 auto;
+    }
+    header .mybtn{
+       font-size: 25px;
+    }
+    
+
+    .services .row:nth-child(2){
+        margin-top: 0;
+    }
+    .service-description{
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+
+    
+    
+    .testimonial h2{
+        font-size: 20px;
+    }
+    .testimonial .line{
+        margin-left: -40px;
+    }
+    .testimonial .row .col{
+        margin:0 auto;
+        position: relative;
+        left: 0px;
+        
+    }
+    .testimonial .col:nth-child(2),
+    .testimonial .col:nth-child(4){
+        width: 480px;
+}
+    .client-photo{
+        width: 100%;
+        float: none;
+        display: contents;
+    }
+    .testimonial .client-review{
+        width: 100%;
+    }
+    .testimonial .client-review h3{
+        position: absolute;
+        top: 115px;
+        left: 30px;
+    }
+    .testimonial .client-review .role{
+        position: absolute;
+        top: 55%;
+        left: 71%;
+    }
+    .testimonial .client-review p{
+        width: 75%;
+        margin-left: 15%;
+        margin-top: 7%;
+        font-size: 15px;
+        letter-spacing: 0px;
+        word-spacing: 3px;
+    }
+    
+
+    .contact input[type="email"]{
+        margin-left: 0px;
+    margin-top: 40px;
+}
+    .contact input[type="text"],
+    .contact input[type="email"]{
+        width: 106%;
+        margin-left: -4px
+    }
+    .contact textarea{
+        height: 150px;
+    }
+    .contact form{
+    margin-top: -4rem;
+}
+    
+    .skills .row:nth-child(2){
+        margin-top: 8rem;
+    }
+    
+    .teams .row:nth-child(2){
+        margin-top: 60px;
+    } 
+    .teams .textbox{
+        
+    }
+    .social-links{
+        margin-left: 160px;
+        margin-top: 15px;
+    }
+}
+@media only screen and (min-width: 480px){
+    .skills{
+        display: none;
+    }
+@media only screen and (min-width: 600px){
+    .skills{
+        
+    }
+    }
+}
